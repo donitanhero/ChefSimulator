@@ -90,7 +90,7 @@ public class LevelManager : MonoBehaviour
                 
                 //level 1.1 Gameplay
                 TimeLimit = 90;
-                ServedCustomer = 1;
+                ServedCustomer = 10;
                 WinConditionFunc = null;
                 WinConditionFunc += WinCondition11;
                 SceneManager.LoadScene("PlayScene");
